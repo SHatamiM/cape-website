@@ -1,11 +1,10 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: Computational Hydrology | University of Saskatchewan
-description: "We seek to improve understanding and predictions of hydrological processes at scales from hillslopes to continents"
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl:  "" #important: start with /
-url: "https://uofs-comphyd.github.io/"
+title: CAPE | Cooperative Alliance for Environmental Prediction
+description: "Cooperative Alliance for Environmental Prediction: advancing hydrologic and environmental prediction across scales"
+baseurl: ""
+url: "https://cape-hydrology.org"
 
 # Build settings
 markdown: kramdown
@@ -30,9 +29,9 @@ online:
   - title: github
     url: https://github.com/CH-Earth
   # - title: facebook
-  #   url: https://github.com/uofs-comphyd
-  - title: twitter
-    url: https://twitter.com/CompHyd_Earth
+  #   url: https://cape-hydrology.org
+  # - title: twitter
+  #   url: https://twitter.com/CompHyd_Earth
   # - title: instagram
   #   url:
   # - title: tumblr
@@ -41,9 +40,8 @@ online:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Coldwater Laboratory
-    - 1151 Sidney Street, unit 116
-    - Canmore, Alberta, T1W 3G1, CANADA
+    - Civil Engineering Department
+    - University of Calgary
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
