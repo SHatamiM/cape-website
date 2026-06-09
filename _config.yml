@@ -12,11 +12,11 @@ permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#417630" #"#00b3fe" #"#F70031"
-  primary_rgb: "65,118,48" #"0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#719500" #e8e3d3" #"#85754d" #"#384452" #"#33004D"
+  primary: "#d6001c" #"#00b3fe" #"#F70031"
+  primary_rgb: "214,0,28" #"0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#ff671f" #e8e3d3" #"#85754d" #"#384452" #"#33004D"
   link: "#ffffff" #"#428bca"
-  link_hover: "#85754d"#"#01b2fe"
+  link_hover: "#d6001c"#"#01b2fe"
   footer_heading: "#ffffff"
   footer_content: "#ffffff" #d9d9d9" #"#bfc9d3"
   text: "#444444"
@@ -53,4 +53,4 @@ address:
 #     img: client02.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "We seek to improve understanding and predictions of hydrological processes at scales from hillslopes to continents"
+about: "We bring together observations, models, and data science to improve understanding and prediction of hydrological processes across scales from hillslopes to continents"

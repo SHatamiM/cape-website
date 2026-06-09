@@ -1,35 +1,48 @@
 <div id="footerwrap">
-    <div class="container">
+    <div class="container-fluid">
+
         <div class="row">
-            <div class="col-lg-4">
-                <h4>About</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Links</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.online %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
-                <p><a class="footer_link" href="https://ral.ucar.edu/hap/computational-hydrology">NCAR | Computational Hydrology</a>
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Our Home</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="spacing"></div>
+
             <div class="col-lg-12">
-                <p style="font-size:11px;color:white;">We acknowledge we are on Treaty 6 and 7 Territory and the Homeland of the Métis, Tsuut'ina, Stoney, Ktunaxa and the Niitsitapi (Blackfoot). We pay our respect to the ancestors of this place and reaffirm our relationship with one another.</p>
+
+                <div style="display:flex;
+                            justify-content:space-between;
+                            align-items:center;">
+
+                    <p style="max-width:900px; margin:0;">
+                        <strong>About CAPE:</strong>
+                        We bring together observations, models, and data science to
+                        improve understanding and prediction of hydrological processes
+                        across scales from hillslopes to continents.
+                    </p>
+
+                    <img src="{{ "/assets/img/Logo_Horz_White.png" }}"
+                         style="max-width:220px;
+                                height:auto;
+                                margin-left:30px;
+                                flex-shrink:0;">
+
+                </div>
+
             </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hline-w"></div>
+
+                <p
+                style="font-size:12px;line-height:1.2;color:white;opacity:0.8;">
+                    <strong>Land Acknowledgement:</strong>
+                    We respectfully acknowledge that we live and work on Treaty
+                    7 Territory and the Homeland of the Métis, Tsuut'ina, Stoney,
+                    and Blackfoot. We thank these nations for their care and
+                    stewardship over this land and water, and we pay respect to
+                    the ancestors of these places.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
