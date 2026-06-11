@@ -14,11 +14,6 @@ social:
 education:
 - school: Griffith University
   location: Brisbane, Queensland, Australia
-  program: Your Program
-  degree: Your Degree
-  year: 2015
-- school: Griffith University
-  location: Brisbane, Queensland, Australia
   program: Civil Environmental Engineering
   degree: PhD
   year: 2015
